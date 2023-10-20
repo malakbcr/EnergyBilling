@@ -1,0 +1,55 @@
+[{
+  "referenceClient": "EKW123",
+  "clientType" : "Particular",
+  "civility": "Mister",
+  "firstName": "Yassine",
+  "lastName": "CHEMINGUI",
+  "consumptions": [
+    {
+      "consumptionElectricity": "22",
+      "consumptionGaz": "15",
+      "month": "01",
+      "year": "2023"
+    },
+    {
+      "consumptionElectricity": "44",
+      "consumptionGaz": "16",
+      "month": "02",
+      "year": "2023"
+    },
+    {
+      "consumptionElectricity": "11",
+      "consumptionGaz": "78",
+      "month": "03",
+      "year": "2023"
+    }
+  ]
+} ,
+  {
+    "referenceClient": "EKW12358741",
+    "clientType" : "Particular",
+    "civility": "Miss",
+    "firstName": "testX",
+    "lastName": "testY",
+    "consumption": [
+      {
+        "consumptionElectricity": "22",
+        "consumptionGaz": "15",
+        "month": "01",
+        "year": "2023"
+      },
+      {
+        "consumptionElectricity": "44",
+        "consumptionGaz": "16",
+        "month": "02",
+        "year": "2023"
+      },
+      {
+        "consumptionElectricity": "11",
+        "consumptionGaz": "78",
+        "month": "03",
+        "year": "2023"
+      }
+    ]
+  }
+]

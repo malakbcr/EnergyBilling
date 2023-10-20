@@ -1,0 +1,56 @@
+[
+  {
+    "referenceClient": "EKW12668741",
+    "clientType" : "Professional",
+    "siretNumber": "369 521 879 00034"  ,
+    "socialReason": "testR",
+    "ca": 500000,
+    "consumptions": [
+      {
+        "consumptionElectricity": "22000",
+        "consumptionGaz": "15000",
+        "month": "01",
+        "year": "2023"
+      },
+      {
+        "consumptionElectricity": "44000",
+        "consumptionGaz": "1600",
+        "month": "02",
+        "year": "2023"
+      },
+      {
+        "consumptionElectricity": "11000",
+        "consumptionGaz": "7800",
+        "month": "03",
+        "year": "2023"
+      }
+    ]
+  },
+  {
+    "referenceClient": "EKW12358741",
+    "clientType" : "Professional",
+    "siretNumber": "362 521 879 00034"  ,
+    "socialReason": "testR",
+    "ca": 1500000,
+    "consumptions": [
+      {
+        "consumptionElectricity": "8800",
+        "consumptionGaz": "1500",
+        "month": "01",
+        "year": "2023"
+      },
+      {
+        "consumptionElectricity": "4400",
+        "consumptionGaz": "1600",
+        "month": "02",
+        "year": "2023"
+      },
+      {
+        "consumptionElectricity": "1100",
+        "consumptionGaz": "7800",
+        "month": "03",
+        "year": "2023"
+      }
+    ]
+  }
+]

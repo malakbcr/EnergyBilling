@@ -29,11 +29,11 @@ public class ClientBillingController {
             assert client!= null;
             IServiceClientManager serviceClientManager = serviceClientFactory.getClientType(client.getClientType());
             double total = serviceClientManager.getClientBill(reference, month, year);
-            response = "the consummation of client " + reference + "is" + total;
+            response = "The customer consumption of reference " + reference + "is" + total;
             return ResponseEntity.ok(response);
         }
         else{
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("The client reference is not valid !");
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("The customer's reference is not valid !");
         }
     }
 }

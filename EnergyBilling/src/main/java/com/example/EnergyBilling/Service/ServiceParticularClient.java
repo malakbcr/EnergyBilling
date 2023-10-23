@@ -4,11 +4,13 @@ import com.example.EnergyBilling.Model.Consumption;
 import com.example.EnergyBilling.Model.ParticularClient;
 import com.example.EnergyBilling.Model.Prices;
 import com.example.EnergyBilling.Repository.ILoadResources;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 
 @Service
+@Slf4j
 public class ServiceParticularClient implements IServiceClientManager{
     private final ILoadResources loadResource;
     public ServiceParticularClient(ILoadResources loadResource) {
@@ -27,6 +29,7 @@ public class ServiceParticularClient implements IServiceClientManager{
                         consumption.getConsumptionElectricity() * prices.ParElectricityPricing();
             }
         }
+        log.error("Particular customer is null !");
         return total;
     }
 }

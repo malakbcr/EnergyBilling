@@ -249,3 +249,111 @@ Caused by: java.lang.ClassNotFoundException: com.example.EnergyBilling.Service.S
 2023-10-23T08:18:47.394+02:00  INFO 17296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2023-10-23T08:18:47.396+02:00  INFO 17296 --- [restartedMain] c.e.E.EnergyBillingApplication           : Started EnergyBillingApplication in 1.205 seconds (process running for 141.467)
 2023-10-23T08:18:47.398+02:00  INFO 17296 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-23T11:12:31.543+02:00  INFO 19156 --- [restartedMain] c.e.E.EnergyBillingApplication           : Starting EnergyBillingApplication using Java 21 with PID 19156 (C:\Users\yassi\Downloads\EnergyBilling\EnergyBilling\target\classes started by yassi in C:\Users\yassi\Downloads\EnergyBilling)
+2023-10-23T11:12:31.548+02:00  INFO 19156 --- [restartedMain] c.e.E.EnergyBillingApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-23T11:12:31.719+02:00  INFO 19156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-23T11:12:31.719+02:00  INFO 19156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-23T11:12:34.144+02:00  INFO 19156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-23T11:12:34.179+02:00  INFO 19156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-23T11:12:34.179+02:00  INFO 19156 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-23T11:12:34.345+02:00  INFO 19156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-23T11:12:34.345+02:00  INFO 19156 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2625 ms
+2023-10-23T11:12:35.276+02:00  INFO 19156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-23T11:12:35.353+02:00  INFO 19156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-23T11:12:35.373+02:00  INFO 19156 --- [restartedMain] c.e.E.EnergyBillingApplication           : Started EnergyBillingApplication in 4.854 seconds (process running for 5.759)
+2023-10-23T11:13:32.734+02:00  INFO 4572 --- [restartedMain] c.e.E.EnergyBillingApplication           : Starting EnergyBillingApplication using Java 21 with PID 4572 (C:\Users\yassi\Downloads\EnergyBilling\EnergyBilling\target\classes started by yassi in C:\Users\yassi\Downloads\EnergyBilling)
+2023-10-23T11:13:32.741+02:00  INFO 4572 --- [restartedMain] c.e.E.EnergyBillingApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-23T11:13:32.920+02:00  INFO 4572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-23T11:13:32.921+02:00  INFO 4572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-23T11:13:35.348+02:00  INFO 4572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-23T11:13:35.372+02:00  INFO 4572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-23T11:13:35.373+02:00  INFO 4572 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-23T11:13:35.510+02:00  INFO 4572 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-23T11:13:35.510+02:00  INFO 4572 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2588 ms
+2023-10-23T11:13:36.345+02:00  INFO 4572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-23T11:13:36.402+02:00  INFO 4572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-23T11:13:36.419+02:00  INFO 4572 --- [restartedMain] c.e.E.EnergyBillingApplication           : Started EnergyBillingApplication in 4.614 seconds (process running for 5.599)
+2023-10-23T11:13:54.721+02:00  INFO 18916 --- [restartedMain] c.e.E.EnergyBillingApplication           : Starting EnergyBillingApplication using Java 21 with PID 18916 (C:\Users\yassi\Downloads\EnergyBilling\EnergyBilling\target\classes started by yassi in C:\Users\yassi\Downloads\EnergyBilling)
+2023-10-23T11:13:54.727+02:00  INFO 18916 --- [restartedMain] c.e.E.EnergyBillingApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-23T11:13:54.883+02:00  INFO 18916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-23T11:13:54.883+02:00  INFO 18916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-23T11:13:57.186+02:00  INFO 18916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-23T11:13:57.211+02:00  INFO 18916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-23T11:13:57.212+02:00  INFO 18916 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-23T11:13:57.355+02:00  INFO 18916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-23T11:13:57.356+02:00  INFO 18916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2472 ms
+2023-10-23T11:13:58.500+02:00  INFO 18916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-23T11:13:58.618+02:00  INFO 18916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-23T11:13:58.648+02:00  INFO 18916 --- [restartedMain] c.e.E.EnergyBillingApplication           : Started EnergyBillingApplication in 4.846 seconds (process running for 5.758)
+2023-10-23T11:14:15.034+02:00  INFO 18916 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-23T11:14:15.036+02:00  INFO 18916 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-23T11:14:15.042+02:00  INFO 18916 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-10-23T11:17:09.671+02:00  INFO 13008 --- [restartedMain] c.e.E.EnergyBillingApplication           : Starting EnergyBillingApplication using Java 21 with PID 13008 (C:\Users\yassi\Downloads\EnergyBilling\EnergyBilling\target\classes started by yassi in C:\Users\yassi\Downloads\EnergyBilling)
+2023-10-23T11:17:09.680+02:00  INFO 13008 --- [restartedMain] c.e.E.EnergyBillingApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-23T11:17:09.964+02:00  INFO 13008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-23T11:17:09.964+02:00  INFO 13008 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-23T11:17:13.164+02:00  INFO 13008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-23T11:17:13.207+02:00  INFO 13008 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-23T11:17:13.207+02:00  INFO 13008 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-23T11:17:13.401+02:00  INFO 13008 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-23T11:17:13.402+02:00  INFO 13008 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3438 ms
+2023-10-23T11:17:14.465+02:00  INFO 13008 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-23T11:17:14.544+02:00  INFO 13008 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-23T11:17:14.575+02:00  INFO 13008 --- [restartedMain] c.e.E.EnergyBillingApplication           : Started EnergyBillingApplication in 6.03 seconds (process running for 7.185)
+2023-10-23T11:17:18.106+02:00  INFO 13008 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-23T11:17:18.106+02:00  INFO 13008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-23T11:17:18.107+02:00  INFO 13008 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-23T11:23:14.465+02:00  INFO 9312 --- [restartedMain] c.e.E.EnergyBillingApplication           : Starting EnergyBillingApplication using Java 21 with PID 9312 (C:\Users\yassi\Downloads\EnergyBilling\EnergyBilling\target\classes started by yassi in C:\Users\yassi\Downloads\EnergyBilling)
+2023-10-23T11:23:14.469+02:00  INFO 9312 --- [restartedMain] c.e.E.EnergyBillingApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-23T11:23:14.586+02:00  INFO 9312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-23T11:23:14.587+02:00  INFO 9312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-23T11:23:16.766+02:00  INFO 9312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-23T11:23:16.792+02:00  INFO 9312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-23T11:23:16.792+02:00  INFO 9312 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-23T11:23:16.900+02:00  INFO 9312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-23T11:23:16.902+02:00  INFO 9312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2313 ms
+2023-10-23T11:23:17.639+02:00  INFO 9312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-23T11:23:17.705+02:00  INFO 9312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-23T11:23:17.728+02:00  INFO 9312 --- [restartedMain] c.e.E.EnergyBillingApplication           : Started EnergyBillingApplication in 4.129 seconds (process running for 4.917)
+2023-10-23T11:23:20.775+02:00  INFO 16620 --- [restartedMain] c.e.E.EnergyBillingApplication           : Starting EnergyBillingApplication using Java 21 with PID 16620 (C:\Users\yassi\Downloads\EnergyBilling\EnergyBilling\target\classes started by yassi in C:\Users\yassi\Downloads\EnergyBilling)
+2023-10-23T11:23:20.779+02:00  INFO 16620 --- [restartedMain] c.e.E.EnergyBillingApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-23T11:23:20.890+02:00  INFO 16620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-23T11:23:20.891+02:00  INFO 16620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-23T11:23:22.635+02:00  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-23T11:23:22.659+02:00  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-23T11:23:22.659+02:00  INFO 16620 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-23T11:23:22.763+02:00  INFO 16620 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-23T11:23:22.764+02:00  INFO 16620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1873 ms
+2023-10-23T11:23:23.416+02:00  INFO 16620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-23T11:23:23.459+02:00  INFO 16620 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-23T11:23:23.472+02:00  INFO 16620 --- [restartedMain] c.e.E.EnergyBillingApplication           : Started EnergyBillingApplication in 3.433 seconds (process running for 4.211)
+2023-10-23T11:23:24.833+02:00  INFO 16620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-23T11:23:24.834+02:00  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-23T11:23:24.835+02:00  INFO 16620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-23T11:25:04.917+02:00  INFO 18312 --- [restartedMain] c.e.E.EnergyBillingApplication           : Starting EnergyBillingApplication using Java 21 with PID 18312 (C:\Users\yassi\Downloads\EnergyBilling\EnergyBilling\target\classes started by yassi in C:\Users\yassi\Downloads\EnergyBilling)
+2023-10-23T11:25:04.923+02:00  INFO 18312 --- [restartedMain] c.e.E.EnergyBillingApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-23T11:25:05.033+02:00  INFO 18312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-23T11:25:05.034+02:00  INFO 18312 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-23T11:25:06.865+02:00  INFO 18312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-23T11:25:06.893+02:00  INFO 18312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-23T11:25:06.893+02:00  INFO 18312 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-23T11:25:07.010+02:00  INFO 18312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-23T11:25:07.010+02:00  INFO 18312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1975 ms
+2023-10-23T11:25:07.802+02:00  INFO 18312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-23T11:25:07.886+02:00  INFO 18312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-23T11:25:07.910+02:00  INFO 18312 --- [restartedMain] c.e.E.EnergyBillingApplication           : Started EnergyBillingApplication in 3.749 seconds (process running for 4.699)
+2023-10-23T11:25:08.962+02:00  INFO 18312 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-23T11:25:08.962+02:00  INFO 18312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-23T11:25:08.962+02:00  INFO 18312 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-10-23T11:31:19.670+02:00  INFO 20324 --- [restartedMain] c.e.E.EnergyBillingApplication           : Starting EnergyBillingApplication using Java 21 with PID 20324 (C:\Users\yassi\Downloads\EnergyBilling\EnergyBilling\target\classes started by yassi in C:\Users\yassi\Downloads\EnergyBilling)
+2023-10-23T11:31:19.674+02:00  INFO 20324 --- [restartedMain] c.e.E.EnergyBillingApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-23T11:31:19.783+02:00  INFO 20324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-23T11:31:19.784+02:00  INFO 20324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-23T11:31:21.643+02:00  INFO 20324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-23T11:31:21.659+02:00  INFO 20324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-23T11:31:21.660+02:00  INFO 20324 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-23T11:31:21.760+02:00  INFO 20324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-23T11:31:21.761+02:00  INFO 20324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1976 ms
+2023-10-23T11:31:22.454+02:00  INFO 20324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-23T11:31:22.501+02:00  INFO 20324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-23T11:31:22.511+02:00  INFO 20324 --- [restartedMain] c.e.E.EnergyBillingApplication           : Started EnergyBillingApplication in 3.612 seconds (process running for 4.471)

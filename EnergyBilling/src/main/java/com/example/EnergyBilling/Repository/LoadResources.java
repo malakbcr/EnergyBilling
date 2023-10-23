@@ -20,7 +20,7 @@ public class LoadResources implements ILoadResources {
     public static final String particularClientDataPath = "/particularClients.json";
     public static final String proClientDataPath = "/proClients.json";
     @Override
-    public Client FindClientByReference(String reference) throws IOException {
+    public Client findClientByReference(String reference) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
         TypeReference<List<Client>> typeReference = new TypeReference<>() {};
@@ -32,7 +32,7 @@ public class LoadResources implements ILoadResources {
     }
 
     @Override
-    public ParticularClient FindParticularClientByReference(String reference) throws IOException {
+    public ParticularClient findParticularClientByReference(String reference) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
         TypeReference<List<ParticularClient>> typeReference = new TypeReference<>() {
@@ -45,7 +45,7 @@ public class LoadResources implements ILoadResources {
     }
 
     @Override
-    public ProClient FindProClientByReference(String reference) throws IOException {
+    public ProClient findProClientByReference(String reference) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
         TypeReference<List<ProClient>> typeReference = new TypeReference<>() {
@@ -56,7 +56,7 @@ public class LoadResources implements ILoadResources {
                 .findAny()
                 .orElse(null);
     }
-    public Consumption FindConsumptionByDate(List<Consumption> consumptionList, String month, String year) {
+    public Consumption findConsumptionByDate(List<Consumption> consumptionList, String month, String year) {
         return consumptionList.stream()
                 .filter(c -> month.equals(c.getMonth()))
                 .filter(c -> year.equals(c.getYear()))

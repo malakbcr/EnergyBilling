@@ -9,11 +9,11 @@ import java.io.IOException;
 import java.util.List;
 
 public interface ILoadResources {
-    Client FindClientByReference(String reference) throws IOException;
+    Client findClientByReference(String reference) throws IOException;
 
-    ParticularClient FindParticularClientByReference(String reference) throws IOException;
+    ParticularClient findParticularClientByReference(String reference) throws IOException;
 
-    ProClient FindProClientByReference(String reference) throws IOException;
+    ProClient findProClientByReference(String reference) throws IOException;
 
-    Consumption FindConsumptionByDate(List<Consumption> consumptionList, String month, String year);
+    Consumption findConsumptionByDate(List<Consumption> consumptionList, String month, String year);
 }

@@ -1,10 +1,12 @@
 package com.example.EnergyBilling.Controller;
 
+import com.example.EnergyBilling.Helper.EnergyBillingHelper;
 import com.example.EnergyBilling.Model.Client;
 import com.example.EnergyBilling.Repository.LoadResources;
 import com.example.EnergyBilling.Service.IServiceClientManager;
 import com.example.EnergyBilling.Service.ServiceClientFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,11 +21,19 @@ public class ClientBillingController {
     @Autowired
     private ServiceClientFactory serviceClientFactory;
     @GetMapping("/API/{reference}/{month}/{year}")
-    public ResponseEntity<Double> getInvoiceByReferenceAndDate(@PathVariable String reference, @PathVariable String month, @PathVariable String year) throws IOException {
-        Client client = loadResource.FindClientByReference(reference);
-        assert client!= null;
-        IServiceClientManager serviceClientManager = serviceClientFactory.GetClientType(client.getClientType());
-        double total = serviceClientManager.GetClientBill(reference, month, year);
-        return ResponseEntity.ok(total);
+    public ResponseEntity<String> getBillingByReferenceAndDate(@PathVariable String reference, @PathVariable String month, @PathVariable String year) throws IOException {
+        String response;
+        if(EnergyBillingHelper.isClientReferenceValid(reference))
+        {
+            Client client = loadResource.findClientByReference(reference);
+            assert client!= null;
+            IServiceClientManager serviceClientManager = serviceClientFactory.getClientType(client.getClientType());
+            double total = serviceClientManager.getClientBill(reference, month, year);
+            response = "the consummation of client " + reference + "is" + total;
+            return ResponseEntity.ok(response);
+        }
+        else{
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("The client reference is not valid !");
+        }
     }
 }

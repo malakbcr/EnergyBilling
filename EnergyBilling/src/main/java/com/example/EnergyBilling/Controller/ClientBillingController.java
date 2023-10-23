@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
+import java.text.MessageFormat;
 
 @RestController
 public class ClientBillingController {
@@ -29,11 +30,12 @@ public class ClientBillingController {
             assert client!= null;
             IServiceClientManager serviceClientManager = serviceClientFactory.getClientType(client.getClientType());
             double total = serviceClientManager.getClientBill(reference, month, year);
-            response = "The customer consumption of reference " + reference + "is" + total;
+            response = MessageFormat.format("The customer consumption of reference {0} is {1} !" , reference, total);
             return ResponseEntity.ok(response);
         }
         else{
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("The customer's reference is not valid !");
+            response = MessageFormat.format("The reference customer {0} is not valid !" , reference);
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(response);
         }
     }
 }

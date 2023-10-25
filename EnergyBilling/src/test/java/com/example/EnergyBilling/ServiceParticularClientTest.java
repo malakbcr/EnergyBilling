@@ -13,6 +13,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.IOException;
@@ -28,7 +29,8 @@ import static org.mockito.ArgumentMatchers.anyString;
 public class ServiceParticularClientTest {
     @Mock
     private LoadResources mockLoadResource;
-    ServiceParticularClient particularClientService;
+    @Autowired
+    private ServiceParticularClient particularClientService;
     static Client client;
     static ParticularClient particularClient;
     static Consumption consumption;
@@ -38,11 +40,11 @@ public class ServiceParticularClientTest {
         particularClientService = new ServiceParticularClient(mockLoadResource);
         consumption = new Consumption(1000,2000,"10","2023");
         consumptions.add(consumption);
-        particularClient = new ParticularClient("EKW123","Particular", Civility.Mister,"Malak","Chemingui",consumptions);
+        particularClient = new ParticularClient("EKW12358251","Particular", Civility.Mister,"Malak","Chemingui",consumptions);
     }
     @ParameterizedTest
-    @CsvSource({"EKW123,10,2023,351"})
-    public void getClientBillTest(String reference, String month, String year, Double expected) throws IOException {
+    @CsvSource({"EKW12358251,10,2023,351"})
+    public void getParticularClientBillTest_OK(String reference, String month, String year, Double expected) throws IOException {
         Mockito.when(mockLoadResource.findConsumptionByDate(any(),anyString(),anyString())).thenReturn(consumption);
         Mockito.when(mockLoadResource.findParticularClientByReference(anyString())).thenReturn(particularClient);
         Double total = particularClientService.getClientBill(reference, month, year);

@@ -41,7 +41,9 @@ public class ServiceProfessionalClient implements IServiceClientManager {
                 }
             }
         }
-        log.error("Professional customer is null !");
+        else {
+            log.error("Professional customer is null !");
+        }
         return total;
     }
 }

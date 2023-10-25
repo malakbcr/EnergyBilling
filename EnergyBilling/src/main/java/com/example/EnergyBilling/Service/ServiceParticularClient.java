@@ -29,7 +29,9 @@ public class ServiceParticularClient implements IServiceClientManager{
                         consumption.getConsumptionElectricity() * prices.ParElectricityPricing();
             }
         }
-        log.error("Particular customer is null !");
+        else {
+            log.error("Particular customer is null !");
+        }
         return total;
     }
 }

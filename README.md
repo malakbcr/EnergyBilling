@@ -15,7 +15,7 @@ The services layer of the application contains model's uses case.
 
 ## Repository
 The repository package contains the persistence layer for retrieving clients details for testing and uses Cruds endpoints.
-### Remark : I used jsons files for retrieving resource, we can replaces that with a NoSql database.
+### Remark : I used jsons files for retrieving data, we can replaces that with a NoSql database.
 
 ## Helper
 Helper package contains EnergyBillingHelper that helping for testing the customer reference.  

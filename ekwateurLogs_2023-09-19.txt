@@ -1,12 +1,12 @@
-2023-10-25T12:01:56.579+02:00  INFO 10468 --- [restartedMain] c.e.E.EnergyBillingApplication           : Starting EnergyBillingApplication using Java 21 with PID 10468 (C:\Users\yassi\Downloads\EnergyBilling\EnergyBilling\target\classes started by yassi in C:\Users\yassi\Downloads\EnergyBilling)
-2023-10-25T12:01:56.590+02:00  INFO 10468 --- [restartedMain] c.e.E.EnergyBillingApplication           : No active profile set, falling back to 1 default profile: "default"
-2023-10-25T12:01:56.668+02:00  INFO 10468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-10-25T12:01:56.668+02:00  INFO 10468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-10-25T12:01:57.974+02:00  INFO 10468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-10-25T12:01:57.986+02:00  INFO 10468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-10-25T12:01:57.986+02:00  INFO 10468 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
-2023-10-25T12:01:58.034+02:00  INFO 10468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-10-25T12:01:58.034+02:00  INFO 10468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1365 ms
-2023-10-25T12:01:58.437+02:00  INFO 10468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-10-25T12:01:58.556+02:00  INFO 10468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-10-25T12:01:58.567+02:00  INFO 10468 --- [restartedMain] c.e.E.EnergyBillingApplication           : Started EnergyBillingApplication in 2.503 seconds (process running for 3.02)
+2023-10-27T16:29:25.017+02:00  INFO 13012 --- [restartedMain] c.e.E.EnergyBillingApplication           : Starting EnergyBillingApplication using Java 21 with PID 13012 (C:\Users\yassi\Downloads\EnergyBilling\EnergyBilling\target\classes started by yassi in C:\Users\yassi\Downloads\EnergyBilling)
+2023-10-27T16:29:25.024+02:00  INFO 13012 --- [restartedMain] c.e.E.EnergyBillingApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-10-27T16:29:25.194+02:00  INFO 13012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-27T16:29:25.195+02:00  INFO 13012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-27T16:29:26.501+02:00  INFO 13012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-27T16:29:26.514+02:00  INFO 13012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-27T16:29:26.514+02:00  INFO 13012 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-27T16:29:26.562+02:00  INFO 13012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-27T16:29:26.562+02:00  INFO 13012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1367 ms
+2023-10-27T16:29:26.972+02:00  INFO 13012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-27T16:29:27.088+02:00  INFO 13012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-27T16:29:27.100+02:00  INFO 13012 --- [restartedMain] c.e.E.EnergyBillingApplication           : Started EnergyBillingApplication in 2.685 seconds (process running for 3.473)
